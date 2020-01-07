@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578189020498.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3171742591",
+    "id" : "F06BB99E",
+    "lastKnownWriteTime" : 1578190640,
+    "last_content_update" : 1578190713481,
+    "path" : "~/Yanqi/housing/ct/affordable_housing/wrangle/ct_housing.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "82,17",
+        "last_setup_crc32" : "2C6D2AFEbb338d19",
+        "scrollLine" : "73"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

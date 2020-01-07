@@ -1,0 +1,5 @@
+"0","# Supply headers to the data frame. Note that prior to 2011, the 'tenant_rental_assisted' column didn't exist. 
+pdf_paths <-  file_names[str_extract(file_names, ""20\\d{2}"") %out% c(""2010"", ""2016"")] %>% basename() %>%  str_c('pdf/',.)
+"
+"2","Error in eval(lhs, parent, parent) : object 'file_names' not found
+"

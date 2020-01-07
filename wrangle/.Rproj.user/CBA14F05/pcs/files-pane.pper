@@ -1,0 +1,9 @@
+{
+    "path" : "~/Yanqi/ct_housing_scrolly/housing/wrangle",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

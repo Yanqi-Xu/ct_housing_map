@@ -1,0 +1,9 @@
+"0","ct_appeals_2010 <-  read_csv(""../data/ct_appeals_2010.csv"", "
+"0","                             col_types = cols(.default = col_character()))"
+"0","ct_appeals_2010 <- ct_appeals_2010 %>% "
+"0","  mutate(year = 2010,"
+"0","         percent_afford = str_remove(percent_afford, ""%"") %>% as.numeric(),"
+"0","         exmp_status = case_when(percent_afford > 10 ~ ""Exempt"", TRUE ~ ""Non-Exempt""))"
+"0","ct <- ct %>% bind_rows(ct_appeals_2010) %>% bind_rows(ct_2016)"
+"2","Error in eval(lhs, parent, parent) : object 'ct' not found
+"

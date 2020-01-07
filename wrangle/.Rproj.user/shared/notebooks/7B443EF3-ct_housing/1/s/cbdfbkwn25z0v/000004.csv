@@ -1,0 +1,4 @@
+"0","income <- read_csv(""../data/acs5y.csv"")
+"
+"2","Error: '../data/acs5y.csv' does not exist in current working directory ('/Users/soc/Yanqi/housing/ct/affordable_housing/wrangle').
+"

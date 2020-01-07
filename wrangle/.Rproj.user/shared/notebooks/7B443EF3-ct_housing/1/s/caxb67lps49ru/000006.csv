@@ -1,0 +1,4 @@
+"0","pdf_paths <- dir_ls('../pdf')
+"
+"2","Error in dir_ls(""../pdf"") : could not find function ""dir_ls""
+"

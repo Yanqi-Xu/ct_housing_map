@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578189919271.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "719801254",
+    "id" : "1BA58801",
+    "lastKnownWriteTime" : 1577982945,
+    "last_content_update" : 1577982945,
+    "path" : "~/Yanqi/ct_housing_scrolly/housing/wrangle/wrangle_pdf.R",
+    "project_path" : "wrangle_pdf.R",
+    "properties" : {
+        "cursorPosition" : "0,16",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

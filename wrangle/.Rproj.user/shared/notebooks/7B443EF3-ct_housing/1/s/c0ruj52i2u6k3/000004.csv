@@ -1,0 +1,16 @@
+"0","ct_df <- pdf_paths %>% map_dfr(.f = wrangle_pdf)
+"
+"1","Converting page 1 to Amended2011AppealsListpdf_1.png..."
+"1"," done!
+"
+"1","Converting page 2 to Amended2011AppealsListpdf_2.png..."
+"1"," done!
+"
+"1","Converting page 3 to Amended2011AppealsListpdf_3.png..."
+"1"," done!
+"
+"1","Converting page 4 to Amended2011AppealsListpdf_4.png..."
+"1"," done!
+"
+"2","
+"
