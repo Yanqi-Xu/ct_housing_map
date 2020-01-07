@@ -1,5 +1,5 @@
 .scroll__text {
-    position: relative;
+    position: fixed;
     display: inline-block;
     top: 0;
     bottom: auto;
@@ -18,7 +18,7 @@
 }
 
 .step {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     opacity: 1;
     padding: 1rem;
 }
