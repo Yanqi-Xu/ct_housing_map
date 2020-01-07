@@ -20,8 +20,8 @@ Other tools that were used:
 - `topojson`: a command line tool for converting GeoJSON to TopoJSON.
 
 # Something I really want to add
-Single housing zoning data or other zoning restrictions. This will speak directly to how zoning regualtions affect building of affordable units.
-Problem is that there's no data in a parsable format and zoning data and regualtions usually differ by localities.
+Single housing zoning data or other zoning restrictions. This will speak directly to how zoning regualtions affect construction of affordable units.
+Problem is that regualtions usually differ by localities.
 
 
 
