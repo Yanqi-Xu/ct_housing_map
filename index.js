@@ -110,7 +110,6 @@ Promise.all([
         d3.selectAll("path")
             .on('mouseover', d => d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.town + ",\n percentage of affordable housing: " + yearSelector(value)[d.properties.town] + "%"))
     }
-
     inputValue = document.getElementById("range").value
     g.selectAll('path')
         .data(towns)
@@ -136,7 +135,7 @@ Promise.all([
                     console.log(towns[j].properties.percent_afford) */
 
         //.attr('fill', d => color(appeals[d.properties.town]))
-        .on('mouseover', d => d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.town + ",\n Total percentage of affordable housing: " + yearSelector(0)[d.properties.town] + "%"))
+        .on('mouseover', d => d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.town + ",\n percentage of affordable housing: "+ yearSelector(0)[d.properties.town] + "%"))
         .on('mousemove', d => d3.select('#tooltip').style('left', (d3.event.pageX + 10) + 'px').style('top', (d3.event.pageY + 10) + 'px'))
         .on('mouseout', d => d3.select('#tooltip').style('opacity', 0));
 
