@@ -1,9 +1,9 @@
 .scroll__text {
-    position: fixed;
+    position: relative;
     display: inline-block;
     top: 0;
     bottom: auto;
-    width: 320px;
+    width: 340px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -12,7 +12,7 @@
 #sections {
     position: relative;
     display: inline-block;
-    width: 320px;
+    width: 340px;
     top: 0;
     z-index: 1
 }
