@@ -3,7 +3,7 @@
     display: inline-block;
     top: 0;
     bottom: auto;
-    width: 280px;
+    width: 320px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -12,13 +12,13 @@
 #sections {
     position: relative;
     display: inline-block;
-    width: 300px;
+    width: 320px;
     top: 0;
     z-index: 1
 }
 
 .step {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     opacity: 1;
     padding: 1rem;
 }
@@ -71,18 +71,6 @@
 }
 
 
-.chart {
-    display: inline-block;
-    position: sticky;
-    width: 100%;
-    left: 60%;
-    z-index: 0;
-    vertical-align: right;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
 .towns:hover {
     fill: yellow;
 }
@@ -119,60 +107,3 @@
     top: 600px;
 }
 
-.axis line {
-    fill: none;
-    stroke: #000000;
-    shape-rendering: crispEdges;
-}
-
-/* .bar {
-    z-index: -3;
-}
-
-.outline {
-    z-index:-2
-} */
-
-text {
-    font-size: 16px;
-}
-
-#plotcaption {
-    font-size: 14px;
-}
-
-.plotdiv {
-    font-size: 16px;
-}
-
-.outline {
-    border-style: solid;
-    position: absolute;
-    top: 100px;
-    left: 300px;
-    width: 200px;
-    height: 500px;
-    stroke: rgb(37, 55, 63);
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.hline {
-    border-top: 2px dashed red;
-    position: absolute;
-    left: 200px;
-    top: 450px;
-    height: 0px;
-    width: 400px;
-}
-
-/* #vis {
-    display: inline-block;
-    position: fixed;
-    top: 60px;
-    z-index: 1;
-    margin-left: 0;
-
-    height: 600px;
-    width: 600px;
-    background-color: #ddd;
-} */

@@ -108,7 +108,7 @@ Promise.all([
 
     function tooltipUpdate(value) {
         d3.selectAll("path")
-            .on('mouseover', d => d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.town + ",\n Total percentage of affordable housing: " + yearSelector(value)[d.properties.town] + "%"))
+            .on('mouseover', d => d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.town + ",\n percentage of affordable housing: " + yearSelector(value)[d.properties.town] + "%"))
     }
 
     inputValue = document.getElementById("range").value
