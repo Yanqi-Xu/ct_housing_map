@@ -11,7 +11,6 @@ Income data from the 2014-2018 5-year ACS estimates published in Dec., 2019, dow
 
 # Components
 - Interactive Map with time series
-- Interactive Scatterplot
 
 # Tech specs
 This is a working project exploring scrollytelling of CT Affordable Housing data with scrollama and d3. 
